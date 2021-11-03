@@ -58,6 +58,8 @@ export const Ul = styled.ul`
     border-radius: 1rem;
     width: 300px;
     min-height: 300px;
+    word-break: break-word;
+    padding: 5px;
 `
 
 export const Li = styled.li`
