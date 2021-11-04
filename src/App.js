@@ -27,7 +27,7 @@ export default function Todo() {
   return (
   
   <s.ToDo>
-      <s.Title>To Don't</s.Title>
+      <s.Title>Don't</s.Title>
       <s.Form onSubmit={handleAddItemToList}>
         <s.Input type="text" onChange={(event) => handleChangeInput(event)} value={task} />
         <s.Button type="submit">Adicionar</s.Button>
